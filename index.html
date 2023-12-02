@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Nunito+Sans:opsz,wght@6..12,900;6..12,1000&family=Open+Sans:ital,wght@0,300;1,300&family=Roboto+Condensed:wght@300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Form</title>
+</head>
+<body>
+  <div class="container">
+     <div class="form">
+      <div class="title">
+        <h4>
+        EVENT REGISTRATION FORM
+       </h4>
+      </div>
+       <div class="name">
+        <h5>
+          Name
+        </h5>
+         <input type="text" class="fname">
+         <label class="fname-text">First Name</label>
+         <input type="text" class="lname">
+         <label class="lname-text">Last Name</label>
+       </div>
+      <div class="company">
+        <h5>Company</h5>
+         <input type="text">
+      </div>
+      <div class="email">
+        <h5>Email</h5>
+         <input type="text">
+      </div>
+      <div class="phone">
+        <h5>Phone</h5>
+         <input type="number">
+         <label class="code">Area Code</label>
+         <input type="tel">
+         <label class="tel">Phone Number</label>
+      </div>
+      <div class="options">
+        <h5>Subject</h5>
+        <select id="subject">
+          <option>Subject 1</option>
+          <option>Subject 2</option>
+          <option>Subject 3</option>
+        </select>
+      </div>
+      <div class="select">
+        <p>
+          Are you an existing customer?
+        </p>
+        <label>Yes
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label>No
+          <input type="radio" name="radio">
+          <span class="checkmark"></span>
+        </label>
+      </div>
+      <div class="btn">
+        <button type="submit">
+          Register
+        </button>
+      </div>
+    </div>
+  </div>
+   
+    
+</body>
+</html>
